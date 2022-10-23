@@ -6,6 +6,7 @@ pipeline {
         stage('build') {
             steps {
                 echo 'Building library'
+				sh "Build.bat"
             }
         }
 
