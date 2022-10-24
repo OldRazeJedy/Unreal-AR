@@ -5,7 +5,7 @@
 	"TargetType": "Game",
 	"Architecture": "",
 	"Project": "../../EducationAR.uproject",
-	"Launch": "F:/Practice/EducationAR/Binaries/Android/EducationAR-armv7.so",
+	"Launch": "$(ProjectDir)/Binaries/Android/EducationAR-armv7.so",
 	"Version": 
 	{
 		"MajorVersion": 4,
@@ -20,7 +20,7 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "F:/Practice/EducationAR/Binaries/Android/EducationAR-armv7.so",
+			"Path": "$(ProjectDir)/Binaries/Android/EducationAR-armv7.so",
 			"Type": "Executable"
 		}
 	],

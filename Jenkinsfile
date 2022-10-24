@@ -1,10 +1,10 @@
 pipeline {
     agent {
-		node {
-			label 'my-defined-label'
-			customWorkspace 'F:\\JenkinsJobs\\UnrealAR'
-			}
+    node {
+      label 'my-defined-label'
+      customWorkspace 'F:\\JenkinsJobs\\UnrealAR'
 		}
+	}
 
 
     stages {
